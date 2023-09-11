@@ -1,0 +1,164 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .name__info h2 {
+        font-size: 26px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .personal__content {
+        margin-left: 0;
+        margin-right: 100px;
+    }
+
+    .personal__content {
+        margin-left: 0;
+    }
+
+    .personal__photo img {
+        width: 100%;
+        margin: inherit;
+    }
+
+    .name__info h2 {
+        font-size: 25px;
+    }
+
+    .name__info h4 {
+        font-size: 20px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .personal__content h1 {
+        font-size: 35px;
+    }
+
+    .personal__info {
+        padding: 10px;
+    }
+
+    .personal__photo img {
+        width: 100%;
+    }
+
+    .name__info h2 {
+        font-size: 24px;
+    }
+
+    .name__info h4 {
+        font-size: 20px;
+    }
+
+    .personal__content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menu__items {
+        top: inherit;
+        transform: inherit;
+        bottom: 0;
+    }
+
+    .sidebar__fixed__nav {
+        flex-direction: row;
+        right: 0;
+        gap: 0;
+        border: none;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0;
+        background: #fff;
+        border-radius: 0;
+    }
+
+    .sidebar__fixed__nav li {
+        padding: 20px;
+    }
+
+    .sidebar__fixed__nav li a i {
+        color: #28e98c;
+        font-size: 30px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .menu__items {
+        top: inherit;
+        transform: inherit;
+        bottom: 0;
+    }
+
+    .home-area {
+        height: inherit
+    }
+
+    .sidebar__fixed__nav {
+        flex-direction: row;
+        right: 0;
+        gap: 0;
+        border: none;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0;
+        background: #fff;
+        border-radius: 0;
+        box-shadow: 0px 0px 10px #E4FCEE;
+    }
+
+    .sidebar__fixed__nav li a i {
+        color: #28e98c;
+        font-size: 20px;
+    }
+
+    .home-area {
+        margin-bottom: 50px;
+    }
+
+    .personal__info {
+        padding: 0;
+    }
+
+    .name__info h2 {
+        font-size: 22px;
+    }
+
+    .personal__content h2 {
+        font-size: 25px;
+    }
+
+    .name__info h4 {
+        font-size: 18px;
+    }
+
+    .personal__content {
+        margin-left: 0;
+    }
+
+    .info__contact {
+        padding: 0 20px;
+    }
+
+    .info__bottom {
+        padding-bottom: 20px;
+    }
+
+    .personal__content h1 {
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .sidebar__fixed__nav li {
+        padding: 15px 0;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
